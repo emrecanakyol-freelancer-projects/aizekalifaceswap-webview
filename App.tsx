@@ -56,7 +56,7 @@ const App = () => {
           />
         }>
         <WebView
-          source={{uri: 'https://faceswap.aizekali.com'}}
+          source={{uri: 'https://alterego.aizekali.com'}}
           onLoadProgress={event => setCanGoBack(event.nativeEvent.canGoBack)}
           ref={webViewRef}
           originWhitelist={['*']}
